@@ -1,0 +1,13 @@
+.jac/
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.DS_Store
+*.log

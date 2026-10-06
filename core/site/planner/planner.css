@@ -1,0 +1,11 @@
+body { margin: 0; background: #f4f6fa; color: #14283e; font-family: system-ui, sans-serif; }
+main { max-width: 1024px; margin: auto; }
+main section { background: white; border: 1px solid #dbe3ed; border-radius: 12px; padding: 20px; }
+main input:not([type="checkbox"]), main select { border: 1px solid #aab8c9; border-radius: 6px; padding: 8px; max-width: 100%; background: white; color: #14283e; }
+main button { border: 1px solid #00274c; border-radius: 6px; padding: 7px 12px; background: #00274c; color: white; cursor: pointer; }
+main button:disabled { opacity: .5; cursor: wait; }
+main button:focus-visible, main input:focus-visible, main select:focus-visible { outline: 3px solid #ffcb05; outline-offset: 2px; }
+main header button { border-color: #ffcb05; color: #ffcb05; }
+main form { align-items: center; }
+main label input { width: 90px; }
+@media (max-width: 600px) { main { padding: 12px; } main section { padding: 14px; } main form input:not([type="checkbox"]), main form select { width: 100%; } }
